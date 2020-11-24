@@ -151,13 +151,13 @@ p {
 }
 
 .paddsection {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .paddsections {
-  padding-top: 90px;
-  padding-bottom: 90px !important;
+  padding-top: 50px;
+  padding-bottom: 50px !important;
 }
 
 .hvr-shutter-in-horizontal::before {
@@ -239,14 +239,16 @@ nav ul li a {
 /*  Header
 /*-----------------------------------------------------------------------------------*/
 
-#header {
-  background: url("https://www.elsetge.cat/myimg/f/15-152440_after-rain-wallpaper-tree-rain.jpg") repeat scroll center center / cover;
+.header {
+   background: url(../images/mypic_editDenim.jpeg) repeat scroll center center / cover;
+  /* background: url("https://wallpaperaccess.com/full/488763.jpg") repeat scroll center center / cover; */
+  
   height: 100vh;
   width: 100%;
 }
 
 
-#header .header-content {
+.header .header-content {
   height: 100vh;
   text-align: left;
   width: 100%;
@@ -284,7 +286,7 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  contact-us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -449,6 +451,17 @@ nav ul li a {
   width: 300px;
 }
 
+.module-border-wrap {
+  /* max-width: 250px; */
+  /* padding: 1rem; */
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, #E0D4AE, #461220);
+  border-image-slice: 1;
+  /* padding: 3px; */
+}
+
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
@@ -521,11 +534,12 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
+  margin-left: 50px;
 }
 
 .contact-details {
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
 }
 
